@@ -1,1 +1,5 @@
-{}
+{
+  "devDependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
