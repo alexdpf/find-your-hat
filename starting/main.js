@@ -12,7 +12,13 @@ class Field {
     constructor(field) {
         this._field = field;
     }
+
+//3. add print() method that prints the current state of the field
+    print() {
+        console.log(this._field.map(row => row.join('')).join('\n'));
+    }
 }
+
 //This variable was provided by Codecademy
 const myField = new Field([
     ['*', '░', 'O'],
@@ -21,4 +27,6 @@ const myField = new Field([
   ]);
 
 //2. TEST Field class constructor
-console.log(myField._field);
+//console.log(myField._field);
+//3. TEST print() method
+myField.print();
