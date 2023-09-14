@@ -30,3 +30,14 @@ const myField = new Field([
 //console.log(myField._field);
 //3. TEST print() method
 myField.print();
+
+//4. create move() method that takes user input and moves the pathCharacter accordingly
+myField.move(prompt('Which way? Please type for direction: up, down, left or right. '));
+
+myField.move('up');
+myField.move('down');
+myField.move('left');
+myField.move('right');
+
+//5. TEST move() method
+myField.move(prompt('Which way? '));
